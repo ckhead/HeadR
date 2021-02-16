@@ -4,7 +4,7 @@
 \alias{texout}
 \title{create a column in a data.table with tabular info}
 \usage{
-texout(x, ndigits = 2)
+texout(x, digits = 2)
 }
 \arguments{
 \item{x}{a list of variables
