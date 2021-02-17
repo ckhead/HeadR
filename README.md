@@ -1,4 +1,5 @@
 # HeadR
+
 my package has 16 functions and 5 binary operators
 ## Stata-like functions
 There are five functions that have their inspiration in Stata command
