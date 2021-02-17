@@ -8,10 +8,17 @@ x \%ni\% y
 }
 \arguments{
 \item{x}{a vector, usually a set of id strings}
+
+\item{y}{a vector, usually a set of id strings}
 }
 \description{
 
 }
 \details{
 Negates the \%in\% operator. Returns a logical. Equivalent to keep if x != y\link{1} and x!= y\link{2}, etc.
+}
+\examples{
+c(1,5,7,-99,NA) \%ni\% c(-99,NA)
+all <- c("Coca-Cola","Others","Pepsi","Private Label")
+brands <- all[all \%ni\% c("Others","Private Label")]
 }

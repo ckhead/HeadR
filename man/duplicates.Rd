@@ -17,5 +17,14 @@ duplicates(DT, by.vars, tag = FALSE)
 
 }
 \details{
-duplicates resembles Stata command of same name to count and tag repeat observations
+duplicates() resembles Stata command of same name to count and tag repeat observations
+Warning: duplicates() uses assign by reference in data.table
+You must library(HeadR) to use this function
+Revision note: use copy() to avoid changes to original DT
+}
+\examples{
+EG <- data.table(x=LETTERS[1:4],y=LETTERS[1:2],z=1:2)
+duplicates(EG,by.vars=c("x","y","z"))
+duplicates(EG,by.vars=c("y","z"))
+EG <- duplicates(EG,by.vars=c("y","z"),tag=TRUE)
 }

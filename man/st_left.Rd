@@ -8,6 +8,8 @@ st_left(x, sep = "_")
 }
 \arguments{
 \item{x}{a character vector}
+
+\item{sep}{a separator character (defaults to "_")}
 }
 \description{
 

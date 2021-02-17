@@ -7,11 +7,17 @@
 texout(x, digits = 2)
 }
 \arguments{
-\item{x}{a list of variables
-ndigits number of digits after decimal point}
+\item{x}{a list of variables}
+
+\item{digits}{number of digits after decimal point}
 }
 \description{
 
+}
+\details{
+texout() is designed to be used inside a data.table. it takes a list of variables and checks for which are whole numbers.
+the whole numbers are not altered. the real numbers are formatted fixed.
+LaTeX column separators "&" are place between numbers and  backslashes are used at the end.
 }
 \examples{
 mydt <- data.table(ida=LETTERS[1:10],idn=1:10,x=runif(10),y=runif(10))
