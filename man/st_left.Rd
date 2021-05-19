@@ -9,11 +9,15 @@ st_left(x, sep = "_")
 \arguments{
 \item{x}{a character vector}
 
-\item{sep}{a separator character (defaults to "_")}
+\item{sep}{a separator character (defaults to "_", don't use backslash)}
 }
 \description{
 
 }
 \details{
 use to separate a string into just the part to left of a delimiter such as "-" or "_", also see st_right
+}
+\examples{
+st_left(c("WUHU_1","WUHU_2","WU_HU_WU","WUHU"))
+st_left(c("WUHU_1","WUHU/2","WU_HU/WU","WUHU"),"/")
 }
