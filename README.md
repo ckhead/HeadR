@@ -1,6 +1,6 @@
 # HeadR
 
-my package has 16 functions and 5 binary operators
+my package has 17 functions and 5 binary operators
 ## Stata-like functions
 There are five functions that have their inspiration in Stata command (also one binary operator below %+% that pastes together strings the same way "+" works in Stata)
 - merge_stata  counts the number of _1 _2 and _3 merges
@@ -16,6 +16,7 @@ There are five functions that have their inspiration in Stata command (also one 
 - st_left this command and st_right are especially useful after fixest because you can recover the components of an interactive fixed effect (e.g. origin-dest). this function had a glitch in previous version because strpos could not handle vectors properly
 - st_right  extracts the part of a string to the right of the delimiter
 - st_standard  creates a standardized version of a name
+- shared_words takes two character vectors. It divides them into strings using a delimiter (such as space or underscore) and counts common quasi-words in each quasi-sentence.
 
 ## Binary operators
 - x %ni% y returns TRUE for each element x that is not one of set specified in y. Thus, it is the reverse of R base operator %in%. I use it in the DT[i] position to select only those cases that do not have the offending attribute. thus it is kind of like a "drop if" in Stata.

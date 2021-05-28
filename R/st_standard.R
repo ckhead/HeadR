@@ -15,6 +15,10 @@
 
 st_standard <- function(x) {
   y <- toupper(x) # all upper case
+  accented <- "çáéíóúàèìòùäëïöüÿâêîôûåøØÅÁÀÂÄÈÉÊËÍÎÏÌÒÓÔÖÚÙÛÜŸÇãñ"
+  normal <- "caeiouaeiouaeiouyaeiouaoOAAAAAEEEEIIIIOOOOUUUUYCan"
+  # (incomplete) set of accented characters and their unaccented counterparts
+  y <- chartr(accented,normal,y)
   y <- gsub("-"," ",y) # replace dashes with spaces
   #  y <- gsub(",","",y)  #just get rid of commas
   y <- gsub("[[:punct:]]","",y)  # (or) get rid of ALL punctuation
@@ -22,3 +26,4 @@ st_standard <- function(x) {
   y <- gsub("\\s+","_",y)  # replace one or more white spaces in between words with _
   return(y)
 }
+
