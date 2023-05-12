@@ -43,6 +43,7 @@ str2tex<-function (x, digits = 2)
     x[[i]] <- lapply(x[[i]], glom)
   }
   x <- do.call(paste, x)
+  # modify the last line
   for (i in 1:length(x)-1){
     x[i] = sub("&$", "\\\\\\\\\\", x[i])
   }
