@@ -14,7 +14,7 @@ duplicates(DT, by.vars, tag = FALSE)
 \item{tag}{should the fn create an indicator for duplicate obs?}
 }
 \description{
-
+Count and tag duplicates (in terms of a variable list)
 }
 \details{
 duplicates() resembles Stata command of same name to count and tag repeat observations

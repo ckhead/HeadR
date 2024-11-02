@@ -14,7 +14,7 @@ merge_stata(DTx, DTy, by)
 \item{by}{the variables to merge by as a string vector}
 }
 \description{
-
+merge.data.table, all, with Stata _merge tracking
 }
 \examples{
 DT1 <- data.table(i=1:5,x1 = c(1,3,2,4,8))

@@ -12,7 +12,7 @@ strpos(chr, pat)
 \item{pat}{pattern to locate}
 }
 \description{
-
+Find position in a string where the first instance of a pattern begins
 }
 \details{
 strpos resembles Stata command of same name, returns 0 if pat is absent from chr.

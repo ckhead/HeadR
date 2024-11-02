@@ -12,7 +12,7 @@ x \%ni\% y
 \item{y}{a vector, usually a set of id strings}
 }
 \description{
-
+not-in operator to exclude elements of a set.
 }
 \details{
 Negates the \%in\% operator. Returns a logical. Equivalent to keep if x != y\link{1} and x!= y\link{2}, etc.

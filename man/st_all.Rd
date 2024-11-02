@@ -10,7 +10,7 @@ st_all(x, sep = "-")
 \item{x}{a numeric or string  vector}
 }
 \description{
-
+Take a vector of strings and tack sorted uniques together separating with "-"
 }
 \details{
 returns a single string from a vector, useful in by commands to keep all the unique values, sorted and hyphenated

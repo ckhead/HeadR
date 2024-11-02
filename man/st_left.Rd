@@ -12,7 +12,7 @@ st_left(x, sep = "_")
 \item{sep}{a separator character (defaults to "_", don't use backslash)}
 }
 \description{
-
+Create a new string of text to the left of a "_"
 }
 \details{
 use to separate a string into just the part to left of a delimiter such as "-" or "_", also see st_right

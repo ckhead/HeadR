@@ -12,7 +12,7 @@ x \%+na\% y
 \item{y}{a numeric vector}
 }
 \description{
-
+when adding an NA keep the non-missing term in the sum
 }
 \details{
 sum that does not fail when adding a missing and a non-missing:

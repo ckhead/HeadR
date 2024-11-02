@@ -12,7 +12,7 @@ x \%excludes\% y
 \item{y}{a character vector}
 }
 \description{
-
+Operator to see if a string does not contain another string
 }
 \details{
 Returns a logical if LHS does not have RHS inside it

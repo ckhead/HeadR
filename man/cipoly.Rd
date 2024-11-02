@@ -16,7 +16,7 @@ cipoly(x, b, se, t = 1.96, col.fill = "darkgrey", alpha.fill = 0.4)
 \item{t}{number of standard errors determining width}
 }
 \description{
-
+Do an area shaded confidence interval with transparency
 }
 \details{
 A version of ribbon where user provides estimates and se

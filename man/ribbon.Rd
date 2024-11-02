@@ -30,7 +30,7 @@ ribbon(
 \item{coll.edge}{colour to outline the upper and lower bounds}
 }
 \description{
-
+Do an area shaded ribbon with transparency
 }
 \details{
 A more general version of cipoly, for example when you have bootstrap CIs
