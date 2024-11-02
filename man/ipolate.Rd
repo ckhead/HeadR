@@ -12,7 +12,7 @@ ipolate(xvar, yvar)
 \item{yvar}{the name of the variable with missing data}
 }
 \description{
-
+Linear interpolation of missing data
 }
 \details{
 ipolate resembles Stata command of same name, very little testing on this fn

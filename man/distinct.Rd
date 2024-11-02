@@ -10,5 +10,5 @@ distinct(x)
 \item{x}{a numeric or character vector}
 }
 \description{
-
+Count number of distinct elements in a vector
 }

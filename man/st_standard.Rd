@@ -10,7 +10,7 @@ st_standard(x)
 \item{x}{string vector}
 }
 \description{
-
+Standardize a name following set of procedures
 }
 \details{
 st_standard capitalizes and trims leading and following white space

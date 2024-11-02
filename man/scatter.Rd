@@ -14,7 +14,7 @@ scatter(..., col = "black", a = 0.5, pch = 16, add = FALSE)
 \item{pch}{point type, defaults to filled circles}
 }
 \description{
-
+Wrapper for plot/points that defaults to filled transparent circles
 }
 \details{
 To avoid all the typing to get transparent filled circles which is what i want 99\% of the time for a scatter plot, i have created this wrapper. Since it defaults to using the same function one should be able to use it in mapply or lapply

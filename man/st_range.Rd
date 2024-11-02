@@ -10,7 +10,7 @@ st_range(x)
 \item{x}{a numeric or string  vector}
 }
 \description{
-
+Calculate and display range of a vector of numbers or strings
 }
 \details{
 returns a character with the lowest and highest values separated by "--" (as in LaTeX)

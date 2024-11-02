@@ -12,7 +12,7 @@ texout(x, digits = 2)
 \item{digits}{number of digits after decimal point}
 }
 \description{
-
+create a column in a data.table with tabular info
 }
 \details{
 texout() is designed to be used inside a data.table. it takes a list of variables and checks for which are whole numbers.

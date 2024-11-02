@@ -27,7 +27,7 @@ shared_words(
 \item{common}{character vector of words that are so common they should not be used}
 }
 \description{
-
+Count (or obtain fraction of) shared words in a sentence
 }
 \details{
 The typical use of this function is to determine whether two vectors of names are close to each other.

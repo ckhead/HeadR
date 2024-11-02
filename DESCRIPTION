@@ -1,18 +1,12 @@
 Package: HeadR
-Title: Keith Head's collected functions
-Version: 0.2
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
 Authors@R: 
-    person(given = "Keith",
-           family = "Head",
-           role = c("aut", "cre"),
-           email = "keith.head@sauder.ubc.ca",
+    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: There are many useful functions and operators, including Stata-like commands.
-License: MIT
-Depends:
-    R (>= 3.0.0),
-    data.table
+Description: What the package does (one paragraph).
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
 Encoding: UTF-8
-LazyData: true
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.1
+RoxygenNote: 7.3.2
