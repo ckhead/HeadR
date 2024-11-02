@@ -1,6 +1,6 @@
 #' create a column in a data.table with tabular info
 #' @description
-#'
+#' @import data.table
 #' @param x a list of variables
 #' @param digits number of digits after decimal point
 #' @details
