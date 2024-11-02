@@ -18,6 +18,7 @@ create a column in a data.table with tabular info
 str2tex() is designed to be used inside a data.table. it takes a list of variables and checks for which are whole numbers.
 the whole numbers are not altered. the real numbers are formatted fixed. It is the updated version of texout() function.
 LaTeX column separators "&" are place between numbers and  backslashes are used at the end.
+The last line is without "\\". Also keep the Int format of last element (if applicable)
 }
 \examples{
 mydt <- data.table(ida=LETTERS[1:10],idn=1:10,x=runif(10),y=runif(10))
