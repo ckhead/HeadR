@@ -11,10 +11,11 @@
 #' @examples
 #' data <- data.table(A = 1:5,B = c(1, 2.1234, 3.1234, 4.1234, 5.1234),C = c(1000.55, 2000.75, 3000.95, 4000.15, 5000.35),D = 1:5,E = c("a", "b", "c", "d", "e"))
 #' data[,output := str2tex_col(list(A,B,C,D,E), rounding = c(0, 2, 1, 0), col_select = c(1, 2, 3, 4))
+#' data[,output := str2tex_col(list(A,B,C,D,E), unirounding = 3)
 #' writeLines(mydt$output)
 #' @export
 
-str2tex_col <- function(data, rounding = NULL, col_select = NULL) {
+str2tex_col <- function(data, unirounding = NULL, rounding = NULL, col_select = NULL) {
   # Ensure the input is converted to a data.table
   data <- as.data.table(data)
 
@@ -23,8 +24,11 @@ str2tex_col <- function(data, rounding = NULL, col_select = NULL) {
     data <- data[, ..col_select]
   }
 
+  if (!is.null(unirounding)) {
+    rounding <- rep(unirounding, ncol(data))
+  }
   # Set default rounding if not provided
-  if (is.null(rounding)) {
+  if (is.null(rounding) && is.null(unirounding)) {
     rounding <- rep(0, ncol(data))
   }
 
