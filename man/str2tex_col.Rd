@@ -7,9 +7,13 @@
 str2tex_col(data, unirounding = NULL, rounding = NULL, col_select = NULL)
 }
 \arguments{
-\item{x}{a list of variables}
+\item{data}{a list of variables or a data.table}
 
-\item{digits}{number of digits after decimal point}
+\item{unirounding}{number of digits after decimal point}
+
+\item{rounding}{a list of number of digits after decimal point}
+
+\item{col_select}{a list of column numbers to select}
 }
 \description{
 create a column in a data.table with tabular info
