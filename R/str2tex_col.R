@@ -12,9 +12,9 @@
 #' The last line is without "\\". Also keep the Int format of last element (if applicable)
 #' @examples
 #' data <- data.table(A = 1:5,B = c(1, 2.1234, 3.1234, 4.1234, 5.1234),C = c(1000.55, 2000.75, 3000.95, 4000.15, 5000.35),D = 1:5,E = c("a", "b", "c", "d", "e"))
-#' data[,output := str2tex_col(list(A,B,C,D,E), rounding = c(0, 2, 1, 0), col_select = c(1, 2, 3, 4))
-#' data[,output := str2tex_col(list(A,B,C,D,E), unirounding = 3)
-#' writeLines(mydt$output)
+#' data[,output := str2tex_col(list(A,B,C,D,E), rounding = c(0, 2, 1, 0), col_select = c(1, 2, 3, 4))]
+#' data[,output := str2tex_col(list(A,B,C,D,E), unirounding = 3)]
+#' writeLines(data$output)
 #' @export
 
 str2tex_col <- function(data, unirounding = NULL, rounding = NULL, col_select = NULL) {
