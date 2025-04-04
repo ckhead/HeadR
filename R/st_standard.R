@@ -18,8 +18,9 @@ st_standard <- function(x) {
   accented <- "çáéíóúàèìòùäëïöüÿâêîôûåøØÅÁÀÂÄÈÉÊËÍÎÏÌÒÓÔÖÚÙÛÜŸÇãñ"
   normal <- "caeiouaeiouaeiouyaeiouaoOAAAAAEEEEIIIIOOOOUUUUYCan"
   # (incomplete) set of accented characters and their unaccented counterparts
-  y <- chartr(accented,normal,y)
-  y <- gsub("-"," ",y) # replace dashes with spaces
+   y <- chartr(accented,normal,y)
+   # another option, but i think i worked out the chartr is better: iconv("jörgen",to="ASCII//TRANSLIT")
+    y <- gsub("-"," ",y) # replace dashes with spaces
   #  y <- gsub(",","",y)  #just get rid of commas
   y <- gsub("[[:punct:]]","",y)  # (or) get rid of ALL punctuation
   y <- gsub("^\\s+|\\s+$", "",y) # get rid of all leading or trailing white space
