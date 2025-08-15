@@ -60,7 +60,7 @@ str2tex_col <- function(data, unirounding = NULL, rounding = NULL, col_select = 
   })
 
   # Add LaTeX line breaks
-  formatted_strings <- paste0(formatted_strings, " \\\\\\\\")
+  formatted_strings <- paste0(formatted_strings, " \\\\")
 
   # Return the formatted strings
   return(formatted_strings)
