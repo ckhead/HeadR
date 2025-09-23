@@ -1,6 +1,11 @@
 # HeadR
 
-my package has about 20 functions and 5 binary operators
+my package has about 20 functions and 5 binary operators. 
+## Installation
+```r
+install.packages("remotes")
+remotes::install_github("ckhead/HeadR")
+```
 ## Stata-like functions
 There are five functions that have their inspiration in Stata command (also one binary operator below %+% that pastes together strings the same way "+" works in Stata)
 - merge_stata  counts the number of _1 _2 and _3 merges. it creates a new variable in your data.table stata_merge which you can use to filter the data set in two steps rather than all.x =TRUE or all.y=TRUE.
