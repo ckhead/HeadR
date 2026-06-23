@@ -2,7 +2,7 @@
 % Please edit documentation in R/merge_stata.R
 \name{merge_stata}
 \alias{merge_stata}
-\title{merge.data.table, all, with Stata _merge tracking}
+\title{Merge the Stata way}
 \usage{
 merge_stata(DTx, DTy, by)
 }

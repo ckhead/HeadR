@@ -2,7 +2,7 @@
 % Please edit documentation in R/st_range.R
 \name{st_range}
 \alias{st_range}
-\title{Calculate and display range of a vector of numbers or strings}
+\title{String Range}
 \usage{
 st_range(x)
 }

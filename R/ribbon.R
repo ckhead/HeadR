@@ -1,6 +1,6 @@
-#' Do an area shaded ribbon with transparency
+#' Ribbon plot
 #'
-#' @description
+#' @description Do an area shaded ribbon with transparency
 #'
 #' @param x the x-axis variable in the plot, often time
 #' @param y_lo lower edge of the ribbon
@@ -9,8 +9,8 @@
 #' @param alpha.fill transparency parameter, lower is lighter
 #' @param coll.edge colour to outline the upper and lower bounds
 #' @param alpha.edge transparency parameter, set to 1 for no transparency
-#' @details
-#' A more general version of cipoly, for example when you have bootstrap CIs
+#' @details A more general version of cipoly, 
+#' for example when you have bootstrap CIs
 #' @examples
 #' plot(1:10,type="n",ylim=c(0,15))
 #' ribbon(1:10,2:11,4:13,col.fill="blue",col.edge="blue",alpha.edge=1)

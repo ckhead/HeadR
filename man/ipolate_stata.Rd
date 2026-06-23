@@ -2,7 +2,7 @@
 % Please edit documentation in R/ipolate_stata.R
 \name{ipolate_stata}
 \alias{ipolate_stata}
-\title{Stata-like linear interpolation with optional tail extrapolation}
+\title{Interpolation (Stata style)}
 \usage{
 ipolate_stata(x, y, epolate = FALSE)
 }
@@ -18,6 +18,9 @@ A numeric vector the same length as \code{y}. Observed \code{y} are preserved;
 only NAs are filled (and only if there are ≥ 2 non-missing points).
 }
 \description{
+Stata-like linear interpolation with optional tail extrapolation
+}
+\details{
 Fills missing values of \code{y} by linear interpolation over \code{x}, preserving
 observed \code{y}. If \code{epolate = TRUE}, linearly extrapolates beyond the first
 and last observed \code{x} using end slopes (mirrors Stata's \verb{ipolate, epolate}).

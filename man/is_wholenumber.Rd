@@ -2,7 +2,7 @@
 % Please edit documentation in R/is_wholenumber.R
 \name{is_wholenumber}
 \alias{is_wholenumber}
-\title{Logical to test if a number is a whole number (out to machine precision)}
+\title{Test for a whole number}
 \usage{
 is_wholenumber(x, tol = .Machine$double.eps^0.5)
 }
@@ -10,6 +10,7 @@ is_wholenumber(x, tol = .Machine$double.eps^0.5)
 \item{x}{a number}
 }
 \description{
+Logical to test if a number is a whole number (out to machine precision)
 Warning the result is not numeric anymore, so do not do any calculations
 }
 \examples{

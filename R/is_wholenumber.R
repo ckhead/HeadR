@@ -1,6 +1,6 @@
-#' Logical to test if a number is a whole number (out to machine precision)
+#' Test for a whole number
 #' @param x a number
-#' @description
+#' @description Logical to test if a number is a whole number (out to machine precision)
 #' Warning the result is not numeric anymore, so do not do any calculations
 #' @examples
 #' is_wholenumber(7)

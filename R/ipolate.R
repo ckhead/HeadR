@@ -1,11 +1,9 @@
 #' Linear interpolation of missing data
 #'
-#' @description
-#'
+#' @description Variation on ipolate_stata
 #' @param xvar the variable to interpolate using (usually year)
 #' @param yvar the name of the variable with missing data
-#' @details
-#' ipolate resembles Stata command of same name to linearly interpolate missing data, and carry forward last observation or backward first observation if extrapolate=TRUE.
+#' @details ipolate resembles Stata command of same name to linearly interpolate missing data, and carry forward last observation or backward first observation if extrapolate=TRUE.
 #' If you want the identical behavior to Stata, use ipolate_stata() instead.
 #' @examples
 #' # examples

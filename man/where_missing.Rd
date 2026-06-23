@@ -2,7 +2,7 @@
 % Please edit documentation in R/where_missing.R
 \name{where_missing}
 \alias{where_missing}
-\title{List of variables in a data.table with the count of missings}
+\title{Where missing obs}
 \usage{
 where_missing(DT)
 }
@@ -10,9 +10,10 @@ where_missing(DT)
 \item{DT}{a data.table}
 }
 \description{
-List of variables in a data.table with the count of missings
+List of variables in a data.table
+with the count of NA for each variable
 }
 \details{
-where_missing returns a reshaped data table filter to show just variables with missings along with the number of them. if the data.table has no missings, an Empty data.table is returned.
-You must library(HeadR) to use this function
+where_missing() returns a reshaped data table filter to show just variables with missings
+along with the number of them. if the data.table has no missings, an Empty data.table is returned.
 }

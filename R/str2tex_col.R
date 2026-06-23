@@ -1,12 +1,11 @@
-#' create a column in a data.table with tabular info
-#' @description
+#' String to tex tabular
+#' @description best version of original texout(); creates a column in a data.table with tabular info
 #' @import data.table
 #' @param data a list of variables or a data.table
 #' @param unirounding number of digits after decimal point
 #' @param rounding a list of number of digits after decimal point
 #' @param col_select a list of column numbers to select
-#' @details
-#' str2tex_col() is designed to be used inside a data.table. it takes a list of variables and a list of round digits with selected columns.
+#' @details str2tex_col() is designed to be used inside a data.table. it takes a list of variables and a list of round digits with selected columns.
 #' the whole numbers are altered as well. the real numbers are formatted fixed. It is the updated version of texout() function.
 #' LaTeX column separators "&" are place between numbers and  backslashes are used at the end.
 #' @examples

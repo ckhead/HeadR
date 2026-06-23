@@ -2,7 +2,7 @@
 % Please edit documentation in R/str2tex.R
 \name{str2tex}
 \alias{str2tex}
-\title{create a column in a data.table with tabular info}
+\title{String to tex tabular (old)}
 \usage{
 str2tex(x, digits = 2)
 }
@@ -12,7 +12,7 @@ str2tex(x, digits = 2)
 \item{digits}{number of digits after decimal point}
 }
 \description{
-create a column in a data.table with tabular info
+create a column in a data.table with tabular info; use str2tex_col for more options, better debugging
 }
 \details{
 str2tex() is designed to be used inside a data.table. it takes a list of variables and checks for which are whole numbers.

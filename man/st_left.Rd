@@ -2,7 +2,7 @@
 % Please edit documentation in R/st_left.R
 \name{st_left}
 \alias{st_left}
-\title{Create a new string of text to the left of a "_"}
+\title{String left}
 \usage{
 st_left(x, sep = "_")
 }
@@ -12,7 +12,7 @@ st_left(x, sep = "_")
 \item{sep}{a separator character (defaults to "_", don't use backslash)}
 }
 \description{
-Create a new string of text to the left of a "_"
+Create a new string of text to the left of sep
 }
 \details{
 use to separate a string into just the part to left of a delimiter such as "-" or "_", also see st_right

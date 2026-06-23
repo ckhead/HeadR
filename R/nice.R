@@ -1,8 +1,8 @@
-#' Make numbers look nice for a table
+#' Make nice numbers
+#' @description Format numbers with a fixed number of decimals for a table
 #' @param x a number
 #' @param digits the number of digits to show to right of decimal point
-#' @description
-#' Warning the result is not numeric anymore, so do not do any calculations
+#' @description Warning the result is not numeric anymore, no more calculations
 #' @examples
 #'  nice(c(17.0003,4.726677))
 #' nice(c(17.0003,4.726677),digits=0)

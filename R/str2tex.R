@@ -1,10 +1,9 @@
-#' create a column in a data.table with tabular info
-#' @description
+#' String to tex tabular (old)
+#' @description create a column in a data.table with tabular info; use str2tex_col for more options, better debugging
 #' @import data.table
 #' @param x a list of variables
 #' @param digits number of digits after decimal point
-#' @details
-#' str2tex() is designed to be used inside a data.table. it takes a list of variables and checks for which are whole numbers.
+#' @details str2tex() is designed to be used inside a data.table. it takes a list of variables and checks for which are whole numbers.
 #' the whole numbers are not altered. the real numbers are formatted fixed. It is the updated version of texout() function.
 #' LaTeX column separators "&" are place between numbers and  backslashes are used at the end.
 #' The last line is without "\\". Also keep the Int format of last element (if applicable)

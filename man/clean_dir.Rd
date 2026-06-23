@@ -24,7 +24,8 @@ clean_dir(
 Remove leftover LaTeX files
 }
 \details{
-defaults to concatenating all the files Beamer creates, but can change to get list of other sets of files
+defaults to concatenating all the files Beamer creates,
+but can change to get list of other sets of files
 when del= TRUE the files are removed.
 #' @examples
 clean_dir("Lectures/Slides2018")

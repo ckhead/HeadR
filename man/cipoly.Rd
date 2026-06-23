@@ -2,7 +2,7 @@
 % Please edit documentation in R/cipoly.R
 \name{cipoly}
 \alias{cipoly}
-\title{Do an area shaded confidence interval with transparency}
+\title{Do an area shaded confidence interval}
 \usage{
 cipoly(x, b, se, t = 1.96, col.fill = "darkgrey", alpha.fill = 0.4)
 }
@@ -16,8 +16,9 @@ cipoly(x, b, se, t = 1.96, col.fill = "darkgrey", alpha.fill = 0.4)
 \item{t}{number of standard errors determining width}
 }
 \description{
-Do an area shaded confidence interval with transparency
+Do an area shaded confidence interval
 }
 \details{
-A version of ribbon where user provides estimates and se
+A version of ribbon with transparency
+where user provides estimates and se
 }

@@ -2,7 +2,7 @@
 % Please edit documentation in R/duplicates.R
 \name{duplicates}
 \alias{duplicates}
-\title{Count and tag duplicates (in terms of a variable list)}
+\title{Count and tag duplicates}
 \usage{
 duplicates(DT, by.vars, tag = FALSE)
 }
@@ -14,7 +14,7 @@ duplicates(DT, by.vars, tag = FALSE)
 \item{tag}{should the fn create an indicator for duplicate obs?}
 }
 \description{
-Count and tag duplicates (in terms of a variable list)
+Count and tag duplicates (in terms of a list of variables)
 }
 \details{
 duplicates() resembles Stata command of same name to count and tag repeat observations

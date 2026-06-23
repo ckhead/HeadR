@@ -2,7 +2,7 @@
 % Please edit documentation in R/nice.R
 \name{nice}
 \alias{nice}
-\title{Make numbers look nice for a table}
+\title{Make nice numbers}
 \usage{
 nice(x, digits = 2)
 }
@@ -12,7 +12,9 @@ nice(x, digits = 2)
 \item{digits}{the number of digits to show to right of decimal point}
 }
 \description{
-Warning the result is not numeric anymore, so do not do any calculations
+Format numbers with a fixed number of decimals for a table
+
+Warning the result is not numeric anymore, no more calculations
 }
 \examples{
  nice(c(17.0003,4.726677))

@@ -2,7 +2,7 @@
 % Please edit documentation in R/shared_words.R
 \name{shared_words}
 \alias{shared_words}
-\title{Count (or obtain fraction of) shared words in a sentence}
+\title{Count shared words}
 \usage{
 shared_words(
   x,

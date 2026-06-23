@@ -2,7 +2,7 @@
 % Please edit documentation in R/ni.R
 \name{\%ni\%}
 \alias{\%ni\%}
-\title{not-in operator to exclude elements of a set.}
+\title{Not-in operator}
 \usage{
 x \%ni\% y
 }
@@ -12,13 +12,15 @@ x \%ni\% y
 \item{y}{a vector, usually a set of id strings}
 }
 \description{
-not-in operator to exclude elements of a set.
+Negates the \code{\%in\%} operator to exclude elements of a set.
 }
 \details{
-Negates the \%in\% operator. Returns a logical. Equivalent to keep if x != y\link{1} and x!= y\link{2}, etc.
+Returns a logical vector. Equivalent to \code{x != y[1] & x != y[2]} etc.,
+but note that \code{y[1]} here is just shorthand -- the actual negation is
+computed via \code{!\%in\%} and works for any length \code{y}.
 }
 \examples{
-c(1,5,7,-99,NA) \%ni\% c(-99,NA)
-all <- c("Coca-Cola","Others","Pepsi","Private Label")
-brands <- all[all \%ni\% c("Others","Private Label")]
+c(1, 5, 7, -99, NA) \%ni\% c(-99, NA)
+all <- c("Coca-Cola", "Others", "Pepsi", "Private Label")
+brands <- all[all \%ni\% c("Others", "Private Label")]
 }

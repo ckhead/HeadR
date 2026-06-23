@@ -2,7 +2,7 @@
 % Please edit documentation in R/scatter.R
 \name{scatter}
 \alias{scatter}
-\title{Wrapper for plot/points that defaults to filled transparent circles}
+\title{Scatter plots with transparency}
 \usage{
 scatter(..., col = "black", a = 0.5, pch = 16, add = FALSE)
 }
@@ -17,5 +17,8 @@ scatter(..., col = "black", a = 0.5, pch = 16, add = FALSE)
 Wrapper for plot/points that defaults to filled transparent circles
 }
 \details{
-To avoid all the typing to get transparent filled circles which is what i want 99\% of the time for a scatter plot, i have created this wrapper. Since it defaults to using the same function one should be able to use it in mapply or lapply
+To avoid all the typing to get transparent filled circles
+which is what i want 99\% of the time for a scatter plot,
+i have created this wrapper. Since it defaults to using
+the same function one should be able to use it in mapply or lapply
 }

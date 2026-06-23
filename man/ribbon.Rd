@@ -2,7 +2,7 @@
 % Please edit documentation in R/ribbon.R
 \name{ribbon}
 \alias{ribbon}
-\title{Do an area shaded ribbon with transparency}
+\title{Ribbon plot}
 \usage{
 ribbon(
   x,
@@ -33,7 +33,8 @@ ribbon(
 Do an area shaded ribbon with transparency
 }
 \details{
-A more general version of cipoly, for example when you have bootstrap CIs
+A more general version of cipoly,
+for example when you have bootstrap CIs
 }
 \examples{
 plot(1:10,type="n",ylim=c(0,15))

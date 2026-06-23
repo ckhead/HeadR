@@ -1,13 +1,11 @@
-#' Do an area shaded confidence interval with transparency
-#'
-#' @description
+#' Do an area shaded confidence interval 
 #'
 #' @param x the x-axis variable in the plot, often time
 #' @param b coefficients or means
 #' @param se standard errors
 #' @param t number of standard errors determining width
-#' @details
-#' A version of ribbon where user provides estimates and se
+#' @details  A version of ribbon with transparency 
+#' where user provides estimates and se
 #' @export
 cipoly <- function(x,b,se,t=1.96,col.fill="darkgrey",alpha.fill=0.4){
   upr <- b+t*se

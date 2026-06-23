@@ -2,7 +2,7 @@
 % Please edit documentation in R/texout.R
 \name{texout}
 \alias{texout}
-\title{create a column in a data.table with tabular info}
+\title{Tex tabular output}
 \usage{
 texout(x, digits = 2)
 }
@@ -13,6 +13,7 @@ texout(x, digits = 2)
 }
 \description{
 create a column in a data.table with tabular info
+(deprecated, use str2tex_col instead)
 }
 \details{
 texout() is designed to be used inside a data.table. it takes a list of variables and checks for which are whole numbers.

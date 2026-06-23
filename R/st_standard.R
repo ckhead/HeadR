@@ -1,6 +1,7 @@
-#' Standardize a name following set of procedures
+#' String Standardize 
 #'
-#' @description
+#' @description convert a name to a standardized form 
+#' following set of procedures shown in details
 #'
 #' @param x string vector
 #'

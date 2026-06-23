@@ -1,12 +1,11 @@
-#' Count and tag duplicates (in terms of a variable list)
+#' Count and tag duplicates 
 #'
-#' @description
+#' @description Count and tag duplicates (in terms of a list of variables)
 #'
 #' @param DT a data.table
 #' @param by.vars a list of variables
 #' @param tag should the fn create an indicator for duplicate obs?
-#' @details
-#' duplicates() resembles Stata command of same name to count and tag repeat observations
+#' @details duplicates() resembles Stata command of same name to count and tag repeat observations
 #' Warning: duplicates() uses assign by reference in data.table
 #' You must library(HeadR) to use this function
 #' Revision note: use copy() to avoid changes to original DT

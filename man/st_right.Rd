@@ -2,7 +2,7 @@
 % Please edit documentation in R/st_right.R
 \name{st_right}
 \alias{st_right}
-\title{Create a new string of text to the right of a "_"}
+\title{String right}
 \usage{
 st_right(x, sep = "_")
 }

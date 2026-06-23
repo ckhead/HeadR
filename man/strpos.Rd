@@ -2,7 +2,7 @@
 % Please edit documentation in R/strpos.R
 \name{strpos}
 \alias{strpos}
-\title{Find position in a string where the first instance of a pattern begins}
+\title{String position number}
 \usage{
 strpos(chr, pat)
 }

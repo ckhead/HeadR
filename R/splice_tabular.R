@@ -1,6 +1,7 @@
-#' Splice a values table with a parenthetical table into a LaTeX tabular
-#'
-#' Interleaves two \code{data.table}s that share an id column and the same
+#' Splice two data tables
+#' 
+#' @description Splice a values table with a parenthetical table into a LaTeX tabular
+#' @details Interleaves two \code{data.table}s that share an id column and the same
 #' set of numeric columns -- a "main" table (e.g. point estimates) and a
 #' "secondary" table (e.g. standard errors) -- into a single LaTeX
 #' \code{tabular} environment. Each id gets two rows: the main values on the

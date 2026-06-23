@@ -1,6 +1,6 @@
-#' Count (or obtain fraction of) shared words in a sentence
+#' Count shared words
 #'
-#' @description
+#' @description Count (or obtain fraction of) shared words in a sentence
 #'
 #' @param x character vector
 #' @param y character vector
@@ -9,8 +9,7 @@
 #' @param frac logical, if TRUE function returns fraction of common words, with the longer sentence length as the denominator
 #' @param common character vector of words that are so common they should not be used  
 #'
-#' @details
-#' The typical use of this function is to determine whether two vectors of names are close to each other.
+#' @details The typical use of this function is to determine whether two vectors of names are close to each other.
 #' The function assumes that each element of each vector is a sentence with " " or some other separator, 
 #' I recommend sep = "_" which is what my st_standard creates. 
 #' Warning: same sets of common words still have frac of shared=1, but count of shared = 0

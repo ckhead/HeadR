@@ -1,5 +1,7 @@
-#' create a column in a data.table with tabular info
-#' @description
+#' Tex tabular output
+#' 
+#' @description  create a column in a data.table with tabular info 
+#' (deprecated, use str2tex_col instead)
 #'
 #' @param x a list of variables
 #' @param digits number of digits after decimal point

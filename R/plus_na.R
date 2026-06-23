@@ -1,10 +1,10 @@
-#' when adding an NA keep the non-missing term in the sum
-#' @description
+#' Add  NA to a number
+#' 
+#' @description when adding an NA keep the non-missing term in the sum
 #'
 #' @param  x a numeric vector
 #' @param  y a numeric vector
-#' @details
-#' sum that does not fail when adding a missing and a non-missing:
+#' @details sum that does not fail when adding a missing and a non-missing:
 #' used in HeadR::merge_stata
 #' #' @examples
 #' 2 %+na% NA

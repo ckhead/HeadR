@@ -1,6 +1,6 @@
-#' merge.data.table, all, with Stata _merge tracking
+#' Merge the Stata way
 #'
-#' @description
+#' @description merge.data.table, all, with Stata _merge tracking
 #'
 #' @param DTx  the master data.table
 #' @param DTy  the using data.table

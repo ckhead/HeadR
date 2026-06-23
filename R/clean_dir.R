@@ -1,13 +1,11 @@
 #' Remove leftover LaTeX files
 #'
-#' @description
-#'
 #' @param path folder, defaults to current directory
 #' @param ext character vector of file extensions, defaults to 7 Beamer extensions (not tex or pdf!) and two book extensions
 #' @param del logical to say whether to delete or just list the files, defaults to FALSE
 #' @param bib logical to say whether to delete bbl and blg files, defaults to TRUE
-#' @details
-#' defaults to concatenating all the files Beamer creates, but can change to get list of other sets of files
+#' @details defaults to concatenating all the files Beamer creates, 
+#' but can change to get list of other sets of files
 #' when del= TRUE the files are removed.
 #'  #' @examples
 #'  clean_dir("Lectures/Slides2018")

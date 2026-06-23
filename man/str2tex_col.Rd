@@ -2,7 +2,7 @@
 % Please edit documentation in R/str2tex_col.R
 \name{str2tex_col}
 \alias{str2tex_col}
-\title{create a column in a data.table with tabular info}
+\title{String to tex tabular}
 \usage{
 str2tex_col(data, unirounding = NULL, rounding = NULL, col_select = NULL)
 }
@@ -16,7 +16,7 @@ str2tex_col(data, unirounding = NULL, rounding = NULL, col_select = NULL)
 \item{col_select}{a list of column numbers to select}
 }
 \description{
-create a column in a data.table with tabular info
+best version of original texout(); creates a column in a data.table with tabular info
 }
 \details{
 str2tex_col() is designed to be used inside a data.table. it takes a list of variables and a list of round digits with selected columns.

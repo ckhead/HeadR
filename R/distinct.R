@@ -1,6 +1,6 @@
 #' Count number of distinct elements in a vector
 #'
-#' @description
+#' @description Use data.table::uniqueN() instead
 #'
 #' @param x a numeric or character vector
 #'

@@ -2,7 +2,7 @@
 % Please edit documentation in R/st_all.R
 \name{st_all}
 \alias{st_all}
-\title{Take a vector of strings and tack sorted uniques together separating with "-"}
+\title{String of unique values}
 \usage{
 st_all(x, sep = "-")
 }
@@ -13,8 +13,10 @@ st_all(x, sep = "-")
 Take a vector of strings and tack sorted uniques together separating with "-"
 }
 \details{
-returns a single string from a vector, useful in by commands to keep all the unique values, sorted and hyphenated
-Default separator not work well with negative numbers or if string already contains hyphenation, switch to "|"
+returns a single string from a vector,
+useful in by commands to keep all the unique values, sorted and hyphenated
+Default separator not work well with negative numbers
+or if string already contains hyphenation, switch to "|"
 }
 \examples{
 st_all(c(1,3,1,2))

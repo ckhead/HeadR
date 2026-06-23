@@ -2,8 +2,7 @@
 % Please edit documentation in R/plus_str.R
 \name{\%+\%}
 \alias{\%+\%}
-\title{paste two strings into one with no space between them
-#' @description}
+\title{Paste together strings}
 \usage{
 x \%+\% y
 }
@@ -13,11 +12,10 @@ x \%+\% y
 \item{y}{a vector, usually string}
 }
 \description{
-paste two strings into one with no space between them
-#' @description
+#' @description paste two strings into one with no space between them
 }
 \details{
-an operator to do a simple paste0
+a plus operator to do a simple paste0, similar to Stata
 }
 \examples{
 n = 5

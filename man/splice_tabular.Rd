@@ -2,7 +2,7 @@
 % Please edit documentation in R/splice_tabular.R
 \name{splice_tabular}
 \alias{splice_tabular}
-\title{Splice a values table with a parenthetical table into a LaTeX tabular}
+\title{Splice two data tables}
 \usage{
 splice_tabular(
   main,
@@ -68,14 +68,16 @@ Invisibly, a character vector of the LaTeX lines written (or that
 would have been written if \code{file} were supplied).
 }
 \description{
+Splice a values table with a parenthetical table into a LaTeX tabular
+}
+\details{
 Interleaves two \code{data.table}s that share an id column and the same
 set of numeric columns -- a "main" table (e.g. point estimates) and a
 "secondary" table (e.g. standard errors) -- into a single LaTeX
 \code{tabular} environment. Each id gets two rows: the main values on the
 first row (with the id label), and the secondary values in parentheses on
 the row below (with a blank id cell, since it would be redundant).
-}
-\details{
+
 Rows in \code{secondary} are matched to \code{main} by \code{id.var}, not
 by row position, so \code{secondary} need not be pre-sorted to match
 \code{main}. Every id in \code{main} must appear exactly once in

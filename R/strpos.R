@@ -1,12 +1,11 @@
-#' Find position in a string where the first instance of a pattern begins
-#'
-#' @description
+#' String position number
+#'  
+#' @description Find position in a string where the first instance of a pattern begins
 #'
 #' @param chr string vector
 #' @param pat pattern to locate
 #'
-#' @details
-#' strpos resembles Stata command of same name, returns 0 if pat is absent from chr.
+#' @details strpos resembles Stata command of same name, returns 0 if pat is absent from chr.
 #' This new version is vectorized (the old one failed on the 3rd example)
 #' @examples
 #' strpos("Coca-Cola","-")

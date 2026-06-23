@@ -2,7 +2,7 @@
 % Please edit documentation in R/contains.R
 \name{\%contains\%}
 \alias{\%contains\%}
-\title{Operator to test if a string is present in another string}
+\title{Contains-a-string operator}
 \usage{
 x \%contains\% y
 }
@@ -15,5 +15,6 @@ x \%contains\% y
 Operator to test if a string is present in another string
 }
 \details{
-Returns TRUE if the variable to left has the string to the right. Going forward use \%like\% instead.
+Returns TRUE if the variable to left has the string to the right.
+Going forward use \%like\% instead.
 }

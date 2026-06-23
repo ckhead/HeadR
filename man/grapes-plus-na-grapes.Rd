@@ -2,7 +2,7 @@
 % Please edit documentation in R/plus_na.R
 \name{\%+na\%}
 \alias{\%+na\%}
-\title{when adding an NA keep the non-missing term in the sum}
+\title{Add  NA to a number}
 \usage{
 x \%+na\% y
 }

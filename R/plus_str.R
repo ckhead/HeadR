@@ -1,10 +1,10 @@
-#' paste two strings into one with no space between them
-#' #' @description
+#' Paste together strings
+#' 
+#' #' @description paste two strings into one with no space between them
 #'
 #' @param  x a vector, usually string
 #' @param  y a vector, usually string
-#' @details
-#' an operator to do a simple paste0
+#' @details a plus operator to do a simple paste0, similar to Stata
 #' @examples
 #' n = 5
 #' "filename" %+% n %+% ".pdf"

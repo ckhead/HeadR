@@ -2,7 +2,7 @@
 % Please edit documentation in R/st_standard.R
 \name{st_standard}
 \alias{st_standard}
-\title{Standardize a name following set of procedures}
+\title{String Standardize}
 \usage{
 st_standard(x)
 }
@@ -10,7 +10,8 @@ st_standard(x)
 \item{x}{string vector}
 }
 \description{
-Standardize a name following set of procedures
+convert a name to a standardized form
+following set of procedures shown in details
 }
 \details{
 st_standard capitalizes and trims leading and following white space

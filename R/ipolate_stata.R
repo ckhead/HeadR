@@ -1,7 +1,7 @@
-#' Stata-like linear interpolation with optional tail extrapolation
+#' Interpolation (Stata style)
 #'
-#' @description
-#' Fills missing values of `y` by linear interpolation over `x`, preserving
+#' @description Stata-like linear interpolation with optional tail extrapolation
+#' @details Fills missing values of `y` by linear interpolation over `x`, preserving
 #' observed `y`. If `epolate = TRUE`, linearly extrapolates beyond the first
 #' and last observed `x` using end slopes (mirrors Stata's `ipolate, epolate`).
 #'

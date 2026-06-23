@@ -1,6 +1,5 @@
 #' Compute Summary Statistics by Group
-#'
-#' Computes common summary statistics (minimum, 1st quartile, median, mean, 3rd quartile, maximum)
+#' @description Computes common summary statistics (minimum, 1st quartile, median, mean, 3rd quartile, maximum)
 #' for a specified numeric variable within groups of a data.table.
 #' 
 #' @param dt A `data.table` containing the data.

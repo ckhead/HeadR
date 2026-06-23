@@ -12,7 +12,7 @@ ipolate(xvar, yvar, extrapolate = FALSE)
 \item{yvar}{the name of the variable with missing data}
 }
 \description{
-Linear interpolation of missing data
+Variation on ipolate_stata
 }
 \details{
 ipolate resembles Stata command of same name to linearly interpolate missing data, and carry forward last observation or backward first observation if extrapolate=TRUE.
