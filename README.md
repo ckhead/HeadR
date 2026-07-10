@@ -1,14 +1,20 @@
 # HeadR
+A collection of personal utility functions for data manipulation
+    with data.table, formatted LaTeX table output, and miscellaneous helpers for empirical research workflows. Some functions specially designed to mimic Stata commands that we could not find in R. The package has about 20 functions and 5 binary operators. 
 
-my package has about 20 functions and 5 binary operators. 
 ## Installation
 ```r
 install.packages("remotes")
 remotes::install_github("ckhead/HeadR")
 ```
+## New functions!
+- rPositiveStable() follows Galichon appendix to generate a distribution which when added to a Gumbel(1) variable returns a correlated Gumbel(1) that gives nested logit probabilities. This is related to Cardell (and Ben Akiva before). *work in progress*
+- splice_tabular() a function entirely written and documented by Claude. Its primary use is for monte carlo studies where there are two dimensions of variation. For example columns are different parameter settings in the DGP and the rows are different estimation methods. One data table has means and the other standard deviations. The function splices them together merging on an id variable and putting the second one (std dev in the main use case) in parentheses under the first one (means) for each method-setting cell. 
+
 ## Frequently used
 - where_missing(DT) will show you all the variables in your data.table DT that have missing values.
 - summary_by_group(dt, var = "x", group = "group") this function is useful because it generates the output for summary() allowing for a by variable.
+
 ## Stata-like functions
 There are five functions that have their inspiration in Stata command (also one binary operator below %+% that pastes together strings the same way "+" works in Stata)
 - merge_stata  counts the number of _1 _2 and _3 merges. it creates a new variable in your data.table stata_merge which you can use to filter the data set in two steps rather than all.x =TRUE or all.y=TRUE.
